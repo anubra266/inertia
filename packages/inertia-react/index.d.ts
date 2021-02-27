@@ -43,7 +43,7 @@ interface BaseInertiaLinkProps {
 
 export interface InertiaFormProps {
 	data: object
-	errors: object
+	errors: any
 	hasErrors: boolean
 	processing: boolean
 	progress: number
