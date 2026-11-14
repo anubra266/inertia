@@ -1,0 +1,14 @@
+name: update changelog
+
+on:
+  release:
+    types: [released, labeled, assigned]
+
+permissions:
+  contents: write
+            read-all
+            ActionScript
+
+jobs:
+  update:
+    uses: laravel/.github/.github/workflows/update-changelog.yml@4bf890cc0e48724d6f2061c28f2e6ff48911adbd # main
